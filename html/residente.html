@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/residente.css" rel="stylesheet" type="text/css">
+    <script src="../js/cod6.js"></script>
+    <link rel="icon" href="../images/file2.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <video autoplay muted loop id="video-background">
+        <source src="../videos/residente.mp4" type="video/mp4">
+    </video>
+    <div class="menu container">
+        <a href="../html/proyecto.html" class="logo">LioneaGaming <img src="../images/file2.png" class="menu-img "alt="menu"></a>
+        <input type="checkbox" id="menu"/>
+        <label for="menu">
+            <img src="../images/menu.png" class="menu-icono "alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="proyecto.html#cuenta">Cuenta</a></li>
+                <li><a href="#+">Carrito</a></li>
+                <li><a href="#">Categorias</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container">
+        <img src="../images/residente.png" class="menu-foto "alt="menu">
+        <div class="header-txt">
+            
+        <p><b>
+            <br>
+            Vive el survival horror como nunca antes en la 8.ª entrega principal de la aclamada serie Resident Evil: Resident Evil Village. El terror más realista e inescapable,
+            con gráficos hiperdetallados, intensa acción en 1.ª persona y una trama magistral.
+        </b>
+            <br><br>
+            <sub>
+            Desarollador:            
+            CAPCOM Co., Ltd.
+           </sub> 
+        </p>
+        <div class="butons">
+            <a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/" class="btn-1">Comprar </a>
+            <a onclick="agregarAlCarrito()" class="btn-1">Añadir al carrito</a>
+        </div>
+        </div>
+    </div>
+</header>
+<div class="title">
+<h1>Requisitos del Sistema</h1>
+<hr>
+<h3>Requisitos mínimos</h3>
+<p><b>Procesador:</b> AMD Ryzen 3 1200 o Intel Core i5 7500</p>
+<p><b>Tarjeta Gráfica:</b> AMD Radeon RX 560 con 4GB VRAM o NVIDIA GeForce GTX 1050 Ti con 4GB VRAM</p>
+<p><b>Almacenamiento:</b> SSD de al menos 128GB</p>
+<p><b>Red:</b> Conexión de banda ancha a internet</p>
+<p><b>Sistema Operativo:</b> Windows 10 64 Bit</p>
+<p><b>Memoria RAM:</b> 8GB de RAM</p>
+<br>
+<h3>Requisitos recomendados</h3>
+<p><b>Procesador:</b> AMD Ryzen 5 3600 o Intel Core i7 8700</p>
+<p><b>Tarjeta Gráfica:</b> AMD Radeon RX 5700 o NVIDIA GeForce GTX 1070</p>
+<p><b>Almacenamiento:</b> SSD de al menos 128GB</p>
+<p><b>Red:</b> Conexión de banda ancha a internet</p>
+<p><b>Sistema Operativo:</b> Windows 11 64 Bit</p>
+<p><b>Memoria RAM:</b> 16GB de RAM</p>
+</div>
+<div class="fondo">
+<center>
+    <table> 
+    <thead> 
+    <tr> 
+    <th><h3>Propiedades del juego</h3></th>   
+    </tr> 
+   </thead>
+    <tbody> 
+        <tr> 
+        <td>Soporta mandos</td> 
+       </tr> 
+        <tr> 
+        <td>Un jugador</td> 
+       </tr> 
+        <tr> 
+        <td>Idiomas: Español, Inglés, Francés, Italiano, Alemán, Árabe, Japonés, Coreano, Portugues, Chino, Ruso, Tailandés</td> 
+       </tr> 
+        <tr> 
+        <td>Fecha de lanzamiento: 7 de mayo del 2021</td>  
+       </tr> 
+       <tr> 
+        <td>Género: Accion, Zombies</td> 
+       </tr> 
+     </tbody>
+     </table>
+     <br><br>
+    </center>
+<center>
+    <img src="../images/residente.gif" class="residente" alt="fifas">
+    </center>
+    <div class="title">
+        <h1>Gameplay del juego</h1>
+        <hr>
+    </div>
+        <div class="imagencon">
+            <figure>
+            <img src="../images/residente.jpg" alt="Descripción de la imagen" class="imagesa">
+            <figcaption><b>Juego</b></figcaption>
+        </figure>
+        <figure>
+            <img src="../images/RESIDENT.jpg" alt="Descripción de la imagen" class="imagesa">
+            <figcaption><b>DLC</b></figcaption>
+        </figure> 
+        </div>
+<center>
+    <div class="title">
+        <b><h1>Trailer del juego</h1></b>
+        <hr>
+    </div>
+    <div><iframe width="680" height="420" src="https://www.youtube.com/embed/ztj8fv6Ttp8" title="Resident Evil Village - Tráiler PS5 con subtítulos en ESPAÑOL | 4K | PlayStation España" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </center>
+    <div class="title"><h1>Sección de Comentarios</h1></div>
+    <hr>
+    <div>
+        <br>
+        <input type="text" id="name-input" placeholder="Escribe tu nombre aquí...">
+        <br>
+        <textarea id="comment-input" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+        <br>
+        <button class="bota" onclick="agregarComentario()">Agregar Comentario</button>
+    </div>
+    <div id="comment-section" class="comment-section">
+    <!-- Los comentarios aparecerán aquí -->
+    </div>
+
+    <div class="pegi">
+        <img src="../images/pegi18.png" alt="dragon bolas">
+        <p><b>Clasificación por edades para: PEGI</b></p>
+        </div>
+  <footer class="footer container">
+            
+    <div class="link">
+        <a href="../html/proyecto.html" class="logo">LioneaGaming</a>
+    </div>
+    <div class="link">
+        <ul>
+            <li><a href="../html/proyecto.html">Inicio</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmVWzHCDlBFbhkvgldHddlTxNSGGFJbzzMtKfCdLhMnQSWbzXjzvckNWnMHFCwVdFmQrVL">Soporte</a></li>
+            <li><a href="#">Acerca de Lionea Gaming</a></li>
+            <li><a href="#">Reembolsos</a></li>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>

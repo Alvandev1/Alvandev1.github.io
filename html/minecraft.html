@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/minecraft.css" rel="stylesheet" type="text/css">
+    <script src="../js/cod6.js"></script>
+    <link rel="icon" href="../images/file2.png" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <video autoplay muted loop id="video-background">
+        <source src="../videos/minecraft.mp4" type="video/mp4">
+    </video>
+    <div class="menu container">
+        <a href="../html/proyecto.html" class="logo">LioneaGaming <img src="../images/file2.png" class="menu-img "alt="menu"></a>
+        <input type="checkbox" id="menu"/>
+        <label for="menu">
+            <img src="../images/menu.png" class="menu-icono "alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="proyecto.html#cuenta">Cuenta</a></li>
+                <li><a href="#+">Carrito</a></li>
+                <li><a href="#">Categorias</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header-content container">
+        <img src="../images/logominecraft.png" class="menu-foto "alt="menu">
+        <div class="header-txt">   
+        <p><b>
+            <br>
+            Minecraft es un juego de aventura y construcción con bloques. Explora mundos generados aleatoriamente y construye cosas maravillosas, desde una simple casa hasta 
+            un fastuoso castillo. Juega en modo creativo con recursos ilimitados o conoce el mundo a fondo con el modo supervivencia, fabricando armas y armaduras para deshacerte
+            de peligrosas criaturas.
+        </b>
+            <br><br>
+            <sub>
+            Desarollador: 
+            Mojang Studios</sub> 
+        </p>
+        <div class="butons">
+            <a href="https://tlauncher.org/installer" class="btn-1">Comprar </a>
+            <a onclick="agregarAlCarrito()" class="btn-1">Añadir al carrito</a>
+        </div>
+        </div>
+    </div>
+</header>
+<hr class="hr3">
+<div class="title">
+<h1>Requisitos del Sistema</h1>
+<hr>
+<h3>Requisitos mínimos</h3>
+<p><b>Procesador:</b> Intel Core i3 3210 3.2 GHz o AMD A8 7600 APU 3.1 GHz o Apple M1 o modelo equivalente</p>
+<p><b>Tarjeta Gráfica:</b> Intel HD Graphics 4000 | AMD Radeon R5</p>
+<p><b>Almacenamiento:</b> 200 MB</p>
+<p><b>Red:</b> No es necesario</p>
+<p><b>Sistema Operativo:</b> Windows 7 y posterior O macOS 10.14.5 Mojave y posterior. x64, x86</p>
+<p><b>Memoria RAM:</b> 2GB de RAM</p>
+<br>
+<h3>Requisitos recomendados</h3>
+<p><b>Procesador:</b>  Intel Core i5-4690 3.5 GHz o AMD A10-7800 APU 3.5 GHz o Apple M1 o modelo equivalente</p>
+<p><b>Tarjeta Gráfica:</b> NVIDIA serie GeForce 700 o serie AMD Radeon Rx 200 (excepto conjuntos de chips integrados) con OpenGL 4.45</p>
+<p><b>Almacenamiento:</b> 1GB</p>
+<p><b>Red:</b> Conexión de banda ancha a internet</p>
+<p><b>Sistema Operativo:</b> Windows 10 y posterior O macOS 10.14.5 Mojave y posterior.</p>
+<p><b>Memoria RAM:</b> 4GB de RAM</p>
+</div>
+<div class="fondo">
+<center>
+<hr class="hr2">
+<br><br>
+    <table> 
+    <thead> 
+    <tr> 
+    <th><h3>Propiedades del juego</h3></th>   
+    </tr> 
+   </thead>
+    <tbody> 
+        <tr> 
+        <td>Soporta mandos</td> 
+       </tr> 
+        <tr> 
+        <td>Un jugador, Cooperativo, Multijugador</td> 
+       </tr> 
+        <tr> 
+        <td>Idiomas: Español, Inglés, Francés, Italiano, Alemán, Árabe, Tailandés, Portugues, Polaco, Ruso, Chino, Coreano, Indonesio, Japonés</td> 
+       </tr> 
+        <tr> 
+        <td>Fecha de lanzamiento: 17 de mayo del 2009</td>  
+       </tr> 
+       <tr> 
+        <td>Género: Aventura, Supervivencia</td> 
+       </tr> 
+     </tbody>
+     </table>
+     <br><br>
+    </center>
+<center>
+    <img src="../images/minecraft.gif" class="maincra" alt="fifas">
+    </center>
+    <div class="title">
+        <h1>Gameplay del juego</h1>
+        <hr>
+    </div>
+        <div class="imagencon">
+            <figure>
+            <img src="../images/maincra.jpg" alt="Descripción de la imagen" class="imagesa">
+            <figcaption><b>Supervivencia</b></figcaption>
+        </figure>
+        <figure>
+            <img src="../images/maincram.jpg" alt="Descripción de la imagen" class="imagesa">
+            <figcaption><b>Minijuegos</b></figcaption>
+        </figure> 
+        </div>
+<center>
+    <div class="title">
+        <b><h1>Trailer del juego</h1></b>
+        <hr>
+    </div>
+    <div><iframe width="680" height="420" src="https://www.youtube.com/embed/qNMfF9TYETM" title="Minecraft: Java &amp; Bedrock Edition – Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br>
+    </div>
+    </div>
+    <hr class="hr2">
+    </center>
+    <div class="title"><h1>Sección de Comentarios</h1></div>
+    <hr>
+    <div>
+        <br>
+        <input type="text" id="name-input" placeholder="Escribe tu nombre aquí...">
+        <br>
+        <textarea id="comment-input" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+        <br>
+        <button class="bota" onclick="agregarComentario()">Agregar Comentario</button>
+    </div>
+    <div id="comment-section" class="comment-section">
+    <!-- Los comentarios aparecerán aquí -->
+    </div>
+    <div class="pegi">
+        <figure>
+        <img src="../images/pegi7.jpg" alt="dragon bolas">
+        <figcaption>Clasificación por edades</figcaption>
+    </figure>
+        </div>
+  <footer class="footer container">
+            
+    <div class="link">
+        <a href="../html/proyecto.html" class="logo">LioneaGaming</a>
+    </div>
+    <div class="link">
+        <ul>
+            <li><a href="../html/proyecto.html">Inicio</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmVWzHCDlBFbhkvgldHddlTxNSGGFJbzzMtKfCdLhMnQSWbzXjzvckNWnMHFCwVdFmQrVL">Soporte</a></li>
+            <li><a href="#">Acerca de Lionea Gaming</a></li>
+            <li><a href="#">Reembolsos</a></li>
+        </ul>
+    </div>
+    </footer>
+</body>
+</html>
