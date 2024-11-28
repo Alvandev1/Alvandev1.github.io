@@ -542,7 +542,7 @@ sub
 }
 
 #video-background {
-      transform: translate(-50%, -20%);
+      transform: translate(-10%, -10%);
       background-size: cover;
 }
 
