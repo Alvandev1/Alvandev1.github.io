@@ -210,7 +210,7 @@ header-content
 .menu-foto
 {
       
-      width: 900px;
+      width: 400px;
       display: block;
 }
 
@@ -393,7 +393,7 @@ hr
       margin: 0.5% auto;
 }
 
-@media(max-width:1280px)
+@media(max-width:991px)
 {
       .menu
       {
