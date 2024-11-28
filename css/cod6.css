@@ -542,8 +542,8 @@ sub
 }
 
 #video-background {
-      transform: translate(-10%, -10%);
-      background-size: cover;
+      transform: translate(-50%, -20%);
+      background-size: auto;
 }
 
 table 
