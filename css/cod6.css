@@ -392,3 +392,179 @@ hr
       align-content: center;
       margin: 0.5% auto;
 }
+
+@media(max-width:991px)
+{
+      .menu
+      {
+            padding: 20px;
+      }
+
+      .menu label
+      {
+            display: initial;
+      }
+
+      .menu .navbar
+      {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #3a2cff;
+            display: none;
+      }
+
+      .menu .navbar ul li a:hover
+      {
+            color: #1b1726;
+      }
+
+      .menu .navbar ul li
+      {
+            width: 100%;
+      }
+
+      #menu:checked ~ .navbar
+      {
+            display: initial;
+      }
+
+      .header
+      {
+            min-height: 0vh;
+            padding: 80px 30px 50px 30px;
+      }
+
+      .header-txt
+      {
+            text-align: center;
+            flex-basis: 100%;
+
+      }
+
+      .header-txt h1
+      {
+            font-size: 50px;
+            margin-bottom: 15px;
+      }
+
+      .butons
+      {
+            justify-content: center;
+      }
+
+      .btn-1:last-of-type
+      {
+            margin-right: 0;
+      }
+
+      .popular
+      {
+            display: none;
+      }
+
+      .product-content
+      {
+            grid-template-columns: repeat(1,1fr);
+            gap: 30px;
+      }
+
+      .product-1 img
+      {
+            width: 100%;
+      }
+
+      .contact
+      {
+            padding: 30px;
+      }
+
+      form
+      {
+            flex-direction: column;
+      }
+
+      input
+      {
+            margin: 0 0 20px 0;
+      }
+
+      .footer
+      {
+            flex-direction: column;
+            text-align: center;
+      }
+
+      .link ul
+      {
+            margin-top: 20px;
+      }
+
+      h2 
+{
+      color:#ffffff;
+      font-size: 35px;
+      margin-bottom: 2vh;
+      margin-top: 10vh;
+}
+
+.first-image {
+      opacity: 1;
+      width: 100px;
+      height: 100px;
+  }
+  
+  .second-image {
+      opacity: 0;
+  }
+
+  .image-container
+  {
+      width: auto;
+  }
+p b
+{
+      font-size: 17px;
+}
+
+sub
+{
+      font-size: 15px;
+}
+
+.menu-foto
+{
+      margin-top: 30px;
+      width: 300px;
+      display: block;
+      margin-left: 50px;
+}
+
+#video-background {
+      transform: translate(-50%, -20%);
+      background-size: cover;
+}
+
+table 
+{ 
+width: 350px; 
+border-collapse: collapse;
+} 
+
+th, td 
+{
+border: 1px solid #ffffff;
+padding: 8px; text-align: center;
+}
+
+th 
+{ 
+background-color: #2a223a; color: white;
+} 
+
+tr 
+{ 
+background-color: #3f3456;color: white;; 
+}
+}
